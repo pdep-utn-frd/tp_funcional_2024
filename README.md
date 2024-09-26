@@ -1,9 +1,9 @@
 # Trabajo Practico de Funcional
 
 Se desea procesar un conjunto de organizaciones de diferentes industrias para poder realizar diferentes consultas sobre ellas.
-De cada organizacion se conoce su nombre, su sitio web, el pais donde fue fundada, una breve descripcion, el año en el que fue fundada, la industria a la que pertenece y su cantidad de empleados actual.
-El objetivo final es poder realizar el analisis sobre un archivo [CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas) (llamado `organizaciones.csv`).
-Por suerte otro equipo programo un modulo llamado [Utiles](/Utiles.hs) con varias funciones utilitarias para leer archivos y parsear los campos del mismo. Por lo que solamente deberemos preocuparnos de modelar los tipos de datos y escribir las funciones necesarias para realizar el analisis.
+De cada organización se conoce su nombre, su sitio web, el país donde fue fundada, una breve descripción, el año en el que fue fundada, la industria a la que pertenece y su cantidad de empleados actual.
+El objetivo final es poder realizar el análisis sobre un archivo [CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas) (llamado `organizaciones.csv`).
+Por suerte otro equipo programo un modulo llamado [Utiles](/Utiles.hs) con varias funciones utilitarias para leer archivos y parsear los campos del mismo. Por lo que solamente deberemos preocuparnos de modelar los tipos de datos y escribir las funciones necesarias para realizar el análisis.
 
 ## Tareas a realizar
 
@@ -21,7 +21,7 @@ Por suerte otro equipo programo un modulo llamado [Utiles](/Utiles.hs) con varia
 
 7.⁠ ⁠⁠Escribir una función que dada una lista de organizaciones devuelva True si alguna fue fundada en Argentina.
 
-8.⁠ ⁠⁠Escribir una función llamada `ampliarOrganizacion` que dada una organización y un numeto, aumente la cantidad de empleados de esa organización en esa cantidad.
+8.⁠ ⁠⁠Escribir una función llamada `ampliarOrganizacion` que dada una organización y un número, aumente la cantidad de empleados de esa organización en esa cantidad.
 
 9.⁠ ⁠⁠Utilizando la función del punto anterior escribir una función `ampliarOrganizaciones` que dada una lista de organizaciones, aumente la cantidad de empleados de todas ellas en 10%.
 
@@ -29,6 +29,7 @@ Por suerte otro equipo programo un modulo llamado [Utiles](/Utiles.hs) con varia
     - Organizaciones cuyo nombre tiene mas de 10 caracteres.
     - Organizaciones con una cantidad par de empleados.
     - Organizaciones fundadas despues del 2000 y ademas con mas de 1000 empleados.
+      
 Definir una unica funcion que permita tomar el criterio por parametro y realice el filtrado.
 Dar ejemplos de consulta utilizando tanto expresiones lambda como aplicacion parcial para los criterios.
 
