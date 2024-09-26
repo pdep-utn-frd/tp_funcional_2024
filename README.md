@@ -1,4 +1,6 @@
-# Trabajo Practico de Funcional
+# Organizaciones 
+
+**Trabajo Practico - Paradigma Funcional**
 
 Se desea procesar un conjunto de organizaciones de diferentes industrias para poder realizar diferentes consultas sobre ellas.
 De cada organización se conoce su nombre, su sitio web, el país donde fue fundada, una breve descripción, el año en el que fue fundada, la industria a la que pertenece y su cantidad de empleados actual.
@@ -17,24 +19,20 @@ Por suerte otro equipo programo un modulo llamado [Utiles](/Utiles.hs) con varia
 
 5.⁠ ⁠⁠Escribir una versión alternativa, sin utilizar la función del punto 3 y utilizando composición de funciones.
 
-6.⁠ ⁠Escribir una función que devuelva la organización del sector de plásticos ("Plastics" en en el archivo) con mayor cantidad de empleados y que haya sido fundada luego de 1960. Utilizar composición de funciones.
+6.⁠ ⁠Escribir una función que devuelva la organización del sector de plásticos ("Plastics" en el archivo) con mayor cantidad de empleados y que haya sido fundada luego de 1960. Utilizar composición de funciones.
 
-7.⁠ ⁠⁠Escribir una función que dada una lista de organizaciones devuelva True si alguna fue fundada en Argentina.
+7.⁠ ⁠⁠Escribir una función llamada `ampliarOrganizacion` que dada una organización y un número, aumente la cantidad de empleados de esa organización en esa cantidad.
 
-8.⁠ ⁠⁠Escribir una función llamada `ampliarOrganizacion` que dada una organización y un número, aumente la cantidad de empleados de esa organización en esa cantidad.
+8.⁠ ⁠⁠Utilizando la función del punto anterior escribir una función `ampliarOrganizaciones` que dada una lista de organizaciones, aumente la cantidad de empleados de todas ellas en 10%.
 
-9.⁠ ⁠⁠Utilizando la función del punto anterior escribir una función `ampliarOrganizaciones` que dada una lista de organizaciones, aumente la cantidad de empleados de todas ellas en 10%.
-
-10. Dada una lista de organizaciones, se desea filtrar por diferentes criterios:
-    - Organizaciones cuyo nombre tiene mas de 10 caracteres.
+9. Dada una lista de organizaciones, se desea averiguar si la mayoria de las organizaciones cumple con estos criterios:
     - Organizaciones con una cantidad par de empleados.
-    - Organizaciones fundadas despues del 2000 y ademas con mas de 1000 empleados.
-      
-Definir una unica funcion que permita tomar el criterio por parametro y realice el filtrado.
-Dar ejemplos de consulta utilizando tanto expresiones lambda como aplicacion parcial para los criterios.
+    - Organizaciones cuya primer palabra del nombre tenga más de una candidad dada de caracteres.
+    - Organizaciones fundadas despues del 2000 y cuya primera palabra del nombre sea la que se indica.
+          
+Definir una unica funcion que permita tomar el criterio por parametro y realice la tarea correspondiente.
+Dar diferentes ejemplos de consulta, en uno de ellos utilizando una expresiones lambda que exprese un nuevo criterio inventado. Justificar al utilidad del concepto de aplicacion parcial.
 
-11. Calcular el promedio de empleados de una lista de organizaciones.
+10. Dada una lista de organizaciones, verificar que no hay organizaciones repetidas. 
 
-12. Dada una lista de organizaciones, verificar que no hay organizaciones repetidas. Evaluar la funcion con la lista completa de organizaciones del archivo `organizaciones.csv` y verificar que ese es el caso.
-
-13. Evaluar todas las funciones definidas en los puntos anteriores usando la lista con todas las organizaciones.
+Importante: Evaluar las funciones definidas en los puntos anteriores usando la lista con todas las organizaciones que surja del archivo `organizaciones.csv`.
